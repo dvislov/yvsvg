@@ -7,7 +7,8 @@ gulp.task('sprite', function () {
   return gulp.src('src/*.svg')
     .pipe(svgSprite({
       baseSize: 16,
-      cssFile: "css/spriteSVG.css"
+      cssFile: "css/spriteSVG.css",
+      svgId: "svg-%f"
     }))
     .pipe(gulp.dest("assets"))
     .pipe(filter("**/*.svg"))
