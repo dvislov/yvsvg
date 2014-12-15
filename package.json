@@ -1,0 +1,27 @@
+{
+  "name": "yvsvg",
+  "version": "0.0.0",
+  "description": "SVG sprite for yvision project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vdv73rus/yvsvg.git"
+  },
+  "keywords": [
+    "SVG",
+    "Sprite",
+    "Retina"
+  ],
+  "author": "Dmitry Vislov <vdv73rus@gmail.com> (http://vdv73.ru/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdv73rus/yvsvg/issues"
+  },
+  "homepage": "https://github.com/vdv73rus/yvsvg",
+  "devDependencies": {
+    "gulp-svg-sprites": "^1.1.0"
+  }
+}
