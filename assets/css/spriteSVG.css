@@ -1,0 +1,29 @@
+.icon {
+    font-size: 16px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 1.75em 3em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+.icon.check:before {
+    background-position: 0em 0em;
+    width: 1.75em;
+    height: 1.75em;
+}
+
+.icon.user-add:before {
+    background-position: 0em -1.75em;
+    width: 1.25em;
+    height: 1.25em;
+}
+
